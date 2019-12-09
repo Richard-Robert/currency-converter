@@ -1,0 +1,10 @@
+<app-conversion
+  *ngIf="activatedRoute === 'conversion'"
+  [baseCurrency]="baseCurrency"
+  [toCurrency]="toCurrency"
+  [exchangeRate]="exchangeRate"
+  [history$]="history$"
+  (changeCurrency$)="updateCurrency($event)"
+  (addHistoryRecord$)="addHistoryRecord($event)"
+  (removeHistoryRecord$)="removeHistoryRecord($event)"
+></app-conversion>

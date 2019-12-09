@@ -1,0 +1,21 @@
+.header {
+  height: 50px;
+  background-color: #333;
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    img {
+      height: 40px;
+      width: 40px;
+    }
+    .title {
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.conversion-wrapper {
+  .currency-converter-wrapper {
+    margin-left: 2rem;
+    .currency-converter {
+      .input-label {
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .form-submit {
+        margin-top: 1rem;
+      }
+    }
+  }
+  .history-wrapper {
+    margin-top: 4rem;
+    .history-title {
+      display: flex;
+      justify-content: center;
+      border-top: balck 1px solid;
+      background-color: gray;
+    }
+    .delete {
+      color: red;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}
